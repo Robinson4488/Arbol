@@ -44,7 +44,7 @@ public class FrmOrdenamiento extends JFrame {
     }
 
     private void cargarDatos() {
-        List<Documento> documentos = Documento.cargarDatos("examen4-main/arbol/src/datos/Datos.csv");
+        List<Documento> documentos = Documento.cargarDatos("Arbol/arbol/src/datos/Datos.csv");
         for (Documento doc : documentos) {
             arbol.insertar(doc);
         }
